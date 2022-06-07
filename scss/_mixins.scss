@@ -1,0 +1,6 @@
+@mixin imagenesfondo ($background-repeat, $background-size, $flex-direction) {
+    display: flex;
+    background-repeat: $background-repeat;
+    background-size: $background-size;
+    flex-direction: $flex-direction;
+}

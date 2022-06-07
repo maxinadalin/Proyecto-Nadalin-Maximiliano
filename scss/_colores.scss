@@ -1,6 +1,10 @@
-$marronclaro:#F49619;
-$marronoscuro: #865B21;
-$blanco:#fff;
-$negro:#000;
-$background:#eae9e8;
-$verde:#25d366;
+
+$mapa-colores: (
+    marron-claro: #F49619
+    marron-oscuro:#865B21
+    blanco:#fff
+    negro:#000
+    fondo:#eae9e8
+    verde:#25d366
+    transparente: rgba(0, 0, 0, 0)
+)
