@@ -87,6 +87,7 @@ hr {
   width: 100%;
 }
 
+
 .main_index .imagen_fondo {
   width: 100%;
   height: 500px;
@@ -106,6 +107,18 @@ hr {
 
 .main_index .primer_imagen {
   background: transparent;
+}
+
+.main_index .primer_imagen h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 200px;
+  /**/
+
 }
 
 .main_index .primer_imagen h2 {
@@ -292,10 +305,10 @@ hr {
 
 /*CSS Catalogo*/
 /*seccion premium*/
-.titulo_premium h2 {
+.titulo_premium h1 {
   font-weight: bolder;
   padding: 25px;
-  font-size: 17px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -313,7 +326,7 @@ hr {
 .titulo_normal h2 {
   font-weight: bolder;
   padding: 25px;
-  font-size: 17px;
+  font-size: 22px;
   text-align: center;
 }
 
@@ -373,6 +386,14 @@ hr {
 }
 
 /*Sucursales*/
+.h1_Sucursal h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-weight: bolder;
+}
+
 .b-sucursales a {
   background-color: #000;
   color: #fff;
@@ -389,6 +410,15 @@ hr {
 }
 
 /*Contacto*/
+.contactanos h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-weight: bolder;
+}
+
+
 .section1 {
   width: 85%;
   margin: auto;
@@ -545,6 +575,17 @@ hr {
     margin: 0;
   }
 
+  .main_index .primer_imagen h1 {
+    font-size: 30px;
+
+  }
+
+  .main_index .primer_imagen h2 {
+    font-size: 25px;
+    margin: 10px;
+    background: transparent;
+  }
+
   .section1 .card {
     flex-wrap: wrap;
   }
@@ -638,6 +679,21 @@ hr {
     margin: 0;
   }
 
+  .main_index .primer_imagen h1 {
+    font-size: 25px;
+
+  }
+
+  .main_index .primer_imagen h2 {
+    font-size: 20px;
+    margin: 10px;
+    background: transparent;
+  }
+
+  .contactanos h1 {
+    font-size: 25px;
+  }
+
   .section1 .card {
     flex-wrap: wrap;
   }
@@ -658,6 +714,10 @@ hr {
   .section1 .card .card-body h5 {
     font-size: 20px;
     font-weight: bolder;
+  }
+
+  .h1_Sucursal h1 {
+    font-size: 25px;
   }
 
   .whatsapp {
@@ -694,6 +754,21 @@ hr {
 }
 
 @media (max-width: 421px) {
+  .main_index .primer_imagen h1 {
+    font-size: 25px;
+
+  }
+
+  .main_index .primer_imagen h2 {
+    font-size: 20px;
+    margin: 10px;
+    background: transparent;
+  }
+
+  .contactanos h1 {
+    font-size: 17px;
+  }
+
   .section1 .card {
     flex-wrap: wrap;
   }
@@ -714,5 +789,9 @@ hr {
   .section1 .card .card-body h5 {
     font-size: 17px;
     font-weight: bolder;
+  }
+
+  .h1_Sucursal h1 {
+    font-size: 18px;
   }
 }
