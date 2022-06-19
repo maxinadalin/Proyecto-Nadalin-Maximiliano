@@ -1,4 +1,4 @@
-/*Variables*/
+
 * {
   margin: 0;
   padding: 0;
@@ -166,6 +166,8 @@ hr {
 }
 
 /* seccion reflexiones */
+
+
 .titulo_reflexiones {
   display: flex;
   justify-content: center;
@@ -183,14 +185,11 @@ hr {
   padding-bottom: 20px;
 }
 
-.carrousel .carousel-inner {
+.carousel-inner {
   margin: auto;
-  width: 85%;
-  height: 350px;
-  background-color: transparent;
-  display: flex;
-  flex-direction: column;
+
 }
+
 
 .carrousel .carousel-inner img {
   margin: auto;
@@ -212,14 +211,6 @@ hr {
 
 .carrousel .carousel-inner .carousel-item {
   height: 350px;
-}
-
-.carrousel .carousel-control-prev {
-  margin-left: 27%;
-}
-
-.carrousel .carousel-control-next {
-  margin-right: 27%;
 }
 
 /* FOOTER*/
@@ -582,8 +573,7 @@ hr {
 
   .main_index .primer_imagen h2 {
     font-size: 25px;
-    margin: 10px;
-    background: transparent;
+   
   }
 
   .section1 .card {
@@ -680,14 +670,12 @@ hr {
   }
 
   .main_index .primer_imagen h1 {
-    font-size: 25px;
+    font-size: 22px;
 
   }
 
   .main_index .primer_imagen h2 {
-    font-size: 20px;
-    margin: 10px;
-    background: transparent;
+    font-size: 18px;
   }
 
   .contactanos h1 {
@@ -755,14 +743,22 @@ hr {
 
 @media (max-width: 421px) {
   .main_index .primer_imagen h1 {
-    font-size: 25px;
+    font-size: 17px;
+    margin-bottom: 150px;
+    
+    
 
   }
 
   .main_index .primer_imagen h2 {
-    font-size: 20px;
-    margin: 10px;
-    background: transparent;
+    font-size: 15px;
+   
+  }
+  
+  
+  .main_index .primer_imagen p {
+    font-size: 11px;
+    
   }
 
   .contactanos h1 {
@@ -776,10 +772,11 @@ hr {
   .section1 .card .card-body {
     border-radius: 4px;
     border: 2px dashed #000;
+   
   }
 
   .section1 .card .card-body a {
-    font-size: 6px;
+    font-size: 7px;
   }
 
   .section1 .card .card-body p {

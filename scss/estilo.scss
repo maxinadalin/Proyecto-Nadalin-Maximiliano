@@ -190,6 +190,7 @@ hr {
     display: flex;
     justify-content: $centrado;
     align-items: $centrado;
+    margin-bottom: 10px;
 
     h2 {
         font-size: 25px;
@@ -208,13 +209,7 @@ hr {
 
     .carousel-inner {
         margin: auto;
-        width: 85%;
-        height: 350px;
-        background-color: map-get($mapa-colores, transparente);
-        /* mapa de colores*/
-        display: flex;
-        flex-direction: column;
-
+ 
         img {
             margin: auto;
         }
@@ -241,14 +236,6 @@ hr {
 
     }
 
-    .carousel-control-prev {
-        margin-left: 27%;
-    }
-
-
-    .carousel-control-next {
-        margin-right: 27%;
-    }
 }
 
 
@@ -666,6 +653,9 @@ hr {
             h1 {
                 font-size: 30px;
             }
+            h2{
+                font-size: 25px;
+            }
         }
     }
 
@@ -786,7 +776,10 @@ hr {
 
         .primer_imagen {
             h1 {
-                font-size: 30px;
+                font-size: 22px;
+            }
+            h2{
+                font-size: 18px;
             }
         }
     }
@@ -879,7 +872,14 @@ hr {
 
         .primer_imagen {
             h1 {
-                font-size: 30px;
+                font-size: 17px;
+                margin-bottom: 150px;
+            }
+            h2{
+                font-size: 15px;
+            }
+            p{
+                font-size: 11px;
             }
         }
     }
@@ -900,7 +900,7 @@ hr {
                 /* mapa de colores*/
 
                 a {
-                    font-size: 6px;
+                    font-size: 7px;
 
                 }
 
